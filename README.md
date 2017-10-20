@@ -2,6 +2,8 @@
 
 Simple VTC price ticker Chrome extension. Prices are from CoinCap.
 
+
+
 If you like this app/extension, you can donate here:
 
 VTC: VyKpM8nM75mdP1iCqocfcRAEdDAPAzAwgK
