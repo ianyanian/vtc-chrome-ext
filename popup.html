@@ -12,22 +12,49 @@
         font-size: 15px;
       }
 
-      #container {
+      .container {
+        text-align: center;
         align-items: center;
-        display: flex;
         justify-content: space-between;
+      }
+
+      #options{
+        padding: 8px;
+        border: 2px solid green;
+        background-color: white;
+        color: green;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+
+      #options:hover {
+        background-color: green;
+        color: white;
       }
     </style>
 
-    <script src="popup.js"></script>
+
   </head>
 
   <body>
     <h1>VTC Price Ticker</h1>
-    <div id="container">
+    <div class="container" id="usd">
       Working on it...
     </div>
+    <div class="container" id="eur">
+    </div>
+    <div class="container" id="btc">
+    </div>
+    <div class="container" id="sat">
+    </div>
+    <div class="container" id="twofourhr">
+    </div>
+    <br>
+    <div id="container_options" style="text-align: center;">
+    <button id="options">Options</button>
+    <div>
     <br>
     &copy; 2017 ianyanian
   </body>
+  <script src="js/popup.js"></script>
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VTC Price Ticker Options</title>
+  <style>
+    body: { padding: 10px; }
+  </style>
+</head>
+
+<body>
+  <label>
+    <input type="checkbox" id="usd_check">
+    Show USD price
+  </label>
+  <br><br>
+  <label>
+    <input type="checkbox" id="eur_check">
+    Show EUR price
+  </label>
+  <br><br>
+  <label>
+    <input type="checkbox" id="btc_check">
+    Show Bitcoin price
+  </label>
+  <br><br>
+  <label>
+    <input type="checkbox" id="sat_check">
+    Show Satoshi price
+  </label>
+  <br><br>
+  <label>
+    <input type="checkbox" id="twofourhr_check">
+    Show 24 hour change
+  </label>
+  <br><br><div id="status"></div><br>
+  <button id="save">Save</button>
+
+  <script src="js/options.js"></script>
+</body>
+</html>
